@@ -112,7 +112,6 @@ def start_game():
     while raising:
         rise = 0
         cpurise = 0
-        print(playercontinue, cpucontinue)
         prompt = "Dealer: Your bet is currently %s chips, Your opponent\'s bet is currently %s chips. Would you like to raise? (Y/N)" % (bet, cpubet)
         playercontinue = handle_raise(prompt)
         if playercontinue:
